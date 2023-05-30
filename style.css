@@ -1,0 +1,102 @@
+body {
+    font-family: roboto;
+    
+}
+
+.navbar {
+    background-color: rgb(20, 75, 156);
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#cabecalho .navbar .nav-link.active {
+    background-color: aliceblue;
+    color: rgb(20, 75, 156);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover { 
+    color: aliceblue;    
+
+}
+
+.navbar-brand {
+    font-family: pacifico;
+    font-size: 32px;
+}
+.navbar-toggler,
+.navbar-toggler:hover {
+    background-color: rgb(23, 130, 201);
+  
+    
+}
+
+p {
+    text-align: justify;
+}
+
+.section-title{
+    font-family: pacifico;
+}
+.section-title span {
+    color: rgb(20, 75, 156) ;
+}
+#sobre-o-restaurante, #cardapio {
+    background-color: rgb(224, 236, 243);
+}
+.nav-cardapio .nav-link.active {
+    background-color: rgb(20, 75, 156) ;
+    color: white;
+}
+.nav-cardapio .nav-link:hover {
+    background-color: rgb(23, 130, 201);
+    color: white;
+}
+.image-column img {
+    width: 100%;
+    height: 200px; /* Ajuste a altura desejada */
+    object-fit: cover;
+  }
+button[type="submit"] {
+  background-color: rgb(23, 130, 201);
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(20, 75, 156);
+  color: white;
+  transform: scale(0.95);
+}
+.text-colored {
+  color: rgb(20, 75, 156);
+}
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+.social-links li a {
+  text-decoration: none
+}
+.no-resize {
+        resize: none;
+    }
+.footer {
+   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(20, 75, 156);
+   color: white;
+   text-align: center;
+   padding: 5px;
+
+@media (max-width: 767px){
+  .carousel-item img {
+    height: 280px;
+  }
+}
